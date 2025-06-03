@@ -5,7 +5,8 @@ import SelectedPlayers from '../SelectedPlayers/SelectedPlayers'
 const PlayersHeader = ({ handleChoosePlayer, selectedPlayers }) => {
 
     const [selected, setSelected] = useState("available");
-
+    
+    
     return (
         <div>
             <div className="mx-auto max-w-7xl mt-10 flex justify-between">
@@ -13,7 +14,7 @@ const PlayersHeader = ({ handleChoosePlayer, selectedPlayers }) => {
                     {selected === 'available' ? (
                         `Available Players`
                 ) : (
-                    `Selected players (${selectedPlayers.length}/10)`
+                    `Selected players (${selectedPlayers.length}/6)`
                 )}</h3>
                 <div className="flex border border-gray-300 rounded-lg overflow-hidden w-64">
                     <button onClick={() => setSelected('available')} className={`w-1/2 py-2 ${selected === "available"
@@ -31,7 +32,8 @@ const PlayersHeader = ({ handleChoosePlayer, selectedPlayers }) => {
             {selected === 'available' ? (
                 <Players handleChoosePlayer={handleChoosePlayer} />
             ) : (
-                <SelectedPlayers selectedPlayers={selectedPlayers} />
+                <SelectedPlayers selectedPlayers={selectedPlayers} 
+                />
             )}
 
         </div>

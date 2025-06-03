@@ -1,14 +1,17 @@
 
 import SelectedPlayer from '../SelectedPlayer/SelectedPlayer';
 
-const SelectedPlayers = ({selectedPlayers}) => {
+const SelectedPlayers = ({selectedPlayers }) => {
 
-    console.log(selectedPlayers)
-
+    // console.log(selectedPlayers)  
+    
+    
     return (
         <div className='mx-auto max-w-7xl mt-10'>
             {
-                selectedPlayers.map((selectedPlayer)=><SelectedPlayer key={selectedPlayer.id} selectedPlayer={selectedPlayer}></SelectedPlayer>)
+                selectedPlayers.map((selectedPlayer)=><SelectedPlayer key={selectedPlayer.id} 
+                selectedPlayer={selectedPlayer} 
+                ></SelectedPlayer>)
             }
         </div>
     );
