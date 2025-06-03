@@ -1,5 +1,6 @@
 import user from '../../assets/images/user.png'
 import flag from '../../assets/images/flag.png'
+import { ToastContainer } from 'react-toastify';
 
 const Player = ({ player, handleChoosePlayer }) => {
     const { player_img, name, country, players_role, batting_style, balling_style, price } = player
@@ -28,10 +29,14 @@ const Player = ({ player, handleChoosePlayer }) => {
                     </div>
                     <div className='flex justify-between'>
                         <p className='font-bold pt-1'>Price: ${price}</p>
-                        <button onClick={() => handleChoosePlayer(price)} className='border border-gray-400 p-1 rounded-lg'>Choose Player</button>
+                        
+                        <button onClick={() => handleChoosePlayer(player)} className='border border-gray-400 p-1 rounded-lg'>Choose Player</button>                         
+                        
                     </div>
+                    
                 </div>
             </div>
+            
 
         </div>
     );

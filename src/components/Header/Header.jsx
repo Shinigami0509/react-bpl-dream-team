@@ -3,7 +3,8 @@ import dollar from '../../assets//images/dollar.png'
 
 const Header = ({coin}) => {
     return (
-        <div className='flex justify-between items-center p-4 mx-auto max-w-7xl mt-4 mb-4'>
+        <div className="sticky top-0 bg-white z-50 shadow">
+            <div className='flex justify-between items-center p-4 mx-auto max-w-7xl mt-4 mb-4'>
             <img src={logo} alt="" />
             <div className='space-x-4 flex justify-center, items-center'>
                 <a href="">Home</a>
@@ -15,6 +16,7 @@ const Header = ({coin}) => {
                     <img className='w-4 ml-1 mt-1' src={dollar} alt="" />
                 </button>
             </div>
+        </div>
         </div>
     );
 };
