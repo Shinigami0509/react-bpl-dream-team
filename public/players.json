@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Desai",
+    "player_img": "https://randomuser.me/api/portraits/men/11.jpg",
+    "country": "India",
+    "batting_style": "Right-hand bat",
+    "balling_style": "Right-arm medium",
+    "price": 950000,
+    "players_role": "Batsman"
+  },
+  {
+    "id": 2,
+    "name": "Liam Brooks",
+    "player_img": "https://randomuser.me/api/portraits/men/21.jpg",
+    "country": "England",
+    "batting_style": "Left-hand bat",
+    "balling_style": "Right-arm offbreak",
+    "price": 870000,
+    "players_role": "All-rounder"
+  },
+  {
+    "id": 3,
+    "name": "Ravi Perera",
+    "player_img": "https://randomuser.me/api/portraits/men/31.jpg",
+    "country": "Sri Lanka",
+    "batting_style": "Right-hand bat",
+    "balling_style": "Right-arm fast",
+    "price": 780000,
+    "players_role": "Bowler"
+  },
+  {
+    "id": 4,
+    "name": "Noah Williams",
+    "player_img": "https://randomuser.me/api/portraits/men/41.jpg",
+    "country": "Australia",
+    "batting_style": "Left-hand bat",
+    "balling_style": "Left-arm orthodox",
+    "price": 1020000,
+    "players_role": "Batsman"
+  },
+  {
+    "id": 5,
+    "name": "Mohammad Rafi",
+    "player_img": "https://randomuser.me/api/portraits/men/51.jpg",
+    "country": "Pakistan",
+    "batting_style": "Right-hand bat",
+    "balling_style": "Right-arm offbreak",
+    "price": 920000,
+    "players_role": "Wicket-keeper"
+  },
+  {
+    "id": 6,
+    "name": "Jason Thomas",
+    "player_img": "https://randomuser.me/api/portraits/men/61.jpg",
+    "country": "West Indies",
+    "batting_style": "Left-hand bat",
+    "balling_style": "Left-arm fast-medium",
+    "price": 890000,
+    "players_role": "All-rounder"
+  },
+  {
+    "id": 7,
+    "name": "Temba Nkosi",
+    "player_img": "https://randomuser.me/api/portraits/men/71.jpg",
+    "country": "South Africa",
+    "batting_style": "Right-hand bat",
+    "balling_style": "Right-arm fast",
+    "price": 840000,
+    "players_role": "Bowler"
+  },
+  {
+    "id": 8,
+    "name": "Steve Chen",
+    "player_img": "https://randomuser.me/api/portraits/men/81.jpg",
+    "country": "New Zealand",
+    "batting_style": "Left-hand bat",
+    "balling_style": "Right-arm legbreak",
+    "price": 970000,
+    "players_role": "Batsman"
+  },
+  {
+    "id": 9,
+    "name": "Imran Hossain",
+    "player_img": "https://randomuser.me/api/portraits/men/91.jpg",
+    "country": "Bangladesh",
+    "batting_style": "Right-hand bat",
+    "balling_style": "Left-arm medium-fast",
+    "price": 760000,
+    "players_role": "Bowler"
+  },
+  {
+    "id": 10,
+    "name": "Nathan Zhang",
+    "player_img": "https://randomuser.me/api/portraits/men/101.jpg",
+    "country": "Canada",
+    "batting_style": "Left-hand bat",
+    "balling_style": "Right-arm medium",
+    "price": 880000,
+    "players_role": "All-rounder"
+  }
+]
